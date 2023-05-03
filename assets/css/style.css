@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+.container-flex{
+    display: flex;
+    
+}
+
+.Primera_Columna{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 18em;
+    min-height: 100vh;
+    padding-top: 0.2%;
+    padding-right: 0.2%;
+    padding-left: 0;
+    
+}
+
+.cuadro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid aquamarine;
+}
+
+.cuadro_usuario {
+    display: flex;
+    align-items: center;
+}
+
+.cuadro_imagen {
+    width: 45px;
+    height:45px;
+    border-radius: 50%;
+}
+
+.cuadro_nombre_mensaje {
+    margin-left: 16px;
+}
+
+.cuadro_estado {
+    color:green;
+}
+
+.cuadro_de_icono {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: green;
+}
+
+.cuadro_de_chat {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid green;
+}
+
+.cuadro_de_icono a {
+    color:green;
+}
+
+
+
+.boton {
+    background-color: green;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 12px 48px;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: green;
+}
+
+.boton:focus {
+    background-color: green;
+}
+
+
+.estado {
+    font-size: 10px;
+}
+
+.mensaje {
+    font-size: 12px;
+}
+
+.nombre {
+    font-size: 16px;
+}
+
+.text-lg {
+    font-size: 46px;
+}
+
+
+
+
+
+
+
+.Segunda_Columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Segunda_Columna img {
+    width: 16rem;
+    height:12rem ;
+    margin-bottom: 1.5rem;
+}
+
+.content {
+    width: 30rem;
+    text-align: center;
+    padding: 0 0.5rem;
+}
+.content img{
+    align-items:flex-end;
+    height:100px;
+    width:100px;
+}
+
+
+img{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+}
+
+
+
+
+
+
